@@ -4,9 +4,6 @@ import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
-    UNSAFE_componentWillUpdate(){
-        console.log('[OrderSummry] will update')
-    }
     
     render () {
         const ingredientSummary = Object.keys(this.props.ingredients)
