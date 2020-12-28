@@ -28,7 +28,7 @@ class App extends Component {
   render() {
     let routes = (
       <Switch>
-        <Route path='/auth' component={Auth}/>
+        <Route path='/auth' component={asyncAuth}/>
         <Route path='/' exact component={BurgerBuilder}/>
         <Redirect to='/'/>
       </Switch>
