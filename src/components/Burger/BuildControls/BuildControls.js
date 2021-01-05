@@ -8,7 +8,7 @@ const controls = [
     { label: 'Bacon', type: 'bacon' },
     { label: 'Cheese', type: 'cheese' },
     { label: 'Meat', type: 'meat' }
-]
+];
 
 const buildControls = ( props ) => {
     return(
@@ -29,6 +29,6 @@ const buildControls = ( props ) => {
                 onClick={props.ordered}>{props.isAuth ? 'ORDER NOW' : 'SIGN UP TO ORDER'}</button>
         </div>
     )
-}
+};
 
 export default buildControls;
